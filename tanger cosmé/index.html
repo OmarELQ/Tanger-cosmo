@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=C, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+    <title>Cosmé-Tanger</title>
+</head>
+<body>
+
+    <div class="tt">
+            <div class="form-content">
+                
+                <form>
+
+                    <div>
+                        <h1>Cosmos - Tanger </h1>
+                    </div>
+
+                        <div class="input-field">
+                        <input type="text" id="Nom" placeholder="Nom du produit">
+                        </div>
+
+                        <div class="input-field">
+                            <input type="text" id="Marque" placeholder="Marque">
+                        </div>
+
+                        <div class="input-field">
+                            <input type="text" id="Prix" placeholder="Prix">
+                        </div>
+
+                        <div class="input-field">
+                            <input type="date" id="Date" placeholder="Date">
+                        </div>
+
+                         <div >
+                             <select class="select" id="type" placeholder="type du produit">
+                             <option value="0">Choisissez le type du produit</option>
+                             <option value="1">Hygiène et toilette</option>
+                             <option value="2">Les soins esthétiques</option>
+                             <option value="3">Les produits solaires</option>
+                             <option value="4">La beauté des mains et des pieds</option>
+                             <option value="5">Les produits de maquillage</option>
+                             <option value="6">Les entretiens capillaires</option>
+                             <option value="7">Les parfums</option>
+                           </select>
+                        </div>
+
+                        <div class="soldes">
+                            <h2> En promotion actuellement ?</h2>
+                            <div>
+                                <label for="solde">Oui</label>
+                                <input type="radio" id="0" >
+                                <label for="pasSolde">Non</label>    
+                                <input type="radio" id="1">
+                                
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <button class="boutton1">Ajouter</button>
+                        </div>
+                          
+                </form>
+            </div>        
+    </div>
+    <table id="tableau">
+        <caption>Les articles</caption>
+      
+        <tr>
+            <th>Nom (article)</th>
+            <th>Marque</th>
+            <th>Prix</th>
+            <th>Date de production</th>
+            <th>Type</th>
+            <th>En promotion :</th>
+        </tr>
+    </table>
+
+</body>
+</html>
